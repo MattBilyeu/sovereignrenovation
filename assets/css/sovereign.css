@@ -1,3 +1,71 @@
+header.header-three,
+.header-three.header--sticky.sticky {
+    padding-top: 0;
+}
+
+.header-three.header--sticky.sticky {
+    padding: 0;
+}
+
 .pre-title {
     color: var(--color-primary) !important;
+}
+
+h1.title {
+    text-shadow: 2px 2px 4px black;
+}
+
+#fullText {
+    text-shadow: none;
+}
+
+#getStarted {
+    color: black;
+    background-color: white;
+}
+
+#services {
+    margin-top: 4rem;
+}
+
+#servicesImage,
+#servicesCover {
+    width: 500px;
+    margin-right: 1rem;
+}
+
+.veil {
+    animation: 1s veil ease-in-out forwards;
+}
+
+#headshot {
+    animation: none;
+    z-index: 1000;
+}
+
+#floatingLogo {
+    animation: jump-2 8s linear infinite;
+}
+
+.valuePropCTAContainer {
+    display: flex;
+    gap: 1rem;
+}
+
+#secondaryButton {
+    border: thin solid black;
+    color: black;
+    background-color: white;
+}
+
+@keyframes veil {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.0000001;
+    }
+    100% {
+        opacity: 1;
+    }
 }
