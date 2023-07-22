@@ -40,7 +40,7 @@ h1.title {
 
 #headshot {
     animation: none;
-    z-index: 1000;
+    z-index: 1;
 }
 
 #floatingLogo {
@@ -56,6 +56,52 @@ h1.title {
     border: thin solid black;
     color: black;
     background-color: white;
+}
+
+.testimonials {
+    background-image: url('../../assets/images/sovereign/testimonial-background.jpg');
+    background-size: cover;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    vertical-align: center;
+}
+
+.testimonialContainer {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    background-color: white;
+    box-shadow: 4px 4px 0px var(--color-primary);
+    margin: auto;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.testimonialContainer h6 {
+    text-align: right;
+}
+
+.testimonial {
+    display: none;
+}
+
+.controls {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.active {
+    display: block;
+}
+
+#web-design {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @keyframes veil {
