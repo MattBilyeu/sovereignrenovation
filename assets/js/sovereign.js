@@ -4,10 +4,10 @@ const handleImageTransition = function(string) {
     servicesImage.classList.add('veil');
     setTimeout(()=> {
         servicesImage.classList.remove('veil');
-    },1000);
+    },800);
     setTimeout(()=> {
         servicesImage.src = string;
-    },500)
+    },400)
 }
 
 const kitchenRemodel = document.querySelector('#kitchenRemodel');
