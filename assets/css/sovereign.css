@@ -65,6 +65,7 @@ h1.title {
     display: flex;
     justify-content: center;
     vertical-align: center;
+    border-bottom: thick solid var(--color-primary);
 }
 
 .testimonialContainer {
@@ -72,30 +73,37 @@ h1.title {
     flex-direction: column;
     width: 350px;
     background-color: white;
-    box-shadow: 4px 4px 0px var(--color-primary);
+    box-shadow: 4px 4px 0px black;
     margin: auto;
     padding: 1.5rem;
     text-align: center;
-}
-
-.testimonialContainer h6 {
-    text-align: right;
+    height: 300px;
+    background-color: lightgrey
 }
 
 .testimonial {
     display: none;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.testimonial p {
+    flex-grow: 1;
 }
 
 .controls {
     display: flex;
-    gap: 3rem;
-    justify-content: center;
+    justify-content: space-around;
     font-weight: bold;
     cursor: pointer;
+    padding: 1rem;
 }
 
 .active {
-    display: block;
+    display: flex;
 }
 
 #web-design {
