@@ -1,0 +1,27 @@
+.headerSpace {
+    background-color: black;
+    height: 100px;
+}
+
+.headerFade {
+    background: linear-gradient(to bottom, black, white);
+    height: 20px;
+}
+
+#processStart {
+    margin-top: 3rem;
+}
+
+.rts-section-gapBottom {
+    padding-bottom: 60px;
+}
+
+.satisfaction {
+    padding-bottom: 4rem;
+}
+
+@media screen and (max-width: 768px) {
+    .title-three-center .bg-title {
+        font-size: 75px;
+    }
+}
