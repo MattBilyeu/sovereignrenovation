@@ -12,6 +12,10 @@
     margin-top: 3rem;
 }
 
+.accordion-service-bg {
+    box-shadow: 4px 4px 4px black;
+}
+
 .rts-section-gapBottom {
     padding-bottom: 60px;
 }
