@@ -1,0 +1,22 @@
+#header {
+    background-image: url('../images/sovereign/testimonial-background.jpg');
+}
+
+.info a h5 {
+    font-size: 1.5rem;
+}
+
+.rts-section-gap {
+    padding: 60px;
+}
+
+#contactContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.thumbnailImage {
+    height: 300px;
+}

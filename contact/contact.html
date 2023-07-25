@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/sovereign.css">
     <link rel="stylesheet" href="../assets/css/sovereignAbout.css">
-    <link rel="stylesheet" href="../assets/css/sovereignProcess.css">
+    <link rel="stylesheet" href="../assets/css/sovereignContact.css">
 </head>
 
 <body>
@@ -80,67 +80,65 @@
             </div>
         </div>
     </header>
-
+    <div id="side-bar" class="side-bar header-three">
+        <button class="close-icon-menu"><i class="far fa-times"></i></button>
+        <!-- mobile menu area start -->
+        <div class="mobile-menu d-block d-xl-none">
+            <nav class="nav-main mainmenu-nav mt--30">
+                <ul class="mainmenu" id="mobile-menu-active">
+                    <li class="menu-item">
+                        <a class="nav-item" href="../index.html">Home</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="nav-item" href="../about/about.html">About</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="nav-item" href="../gallery/gallery.html">Gallery</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="nav-item" href="../process/process.html">Process</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="../contact/contact.html" class="nav-item">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!-- mobile menu area end -->
+    </div>
+    <!-- header style two End -->
     <!-- Bread-Crumb style two -->
     <!-- rts breadcrumba area start -->
-    <div class="rts-bread-crumb-area ptb--150 ptb_sm--100 bg-breadcrumb bg_image">
+    <div id="header" class="rts-bread-crumb-area ptb--150 ptb_sm--100 bg-breadcrumb bg_image">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <!-- bread crumb inner wrapper -->
                     <div class="breadcrumb-inner text-center">
                         <h1 class="title">Contact Us</h1>
-                        <div class="meta">
-                            <a href="#" class="prev">Home /</a>
-                            <a href="#" class="next">Contact Us</a>
-                        </div>
                     </div>
                     <!-- bread crumb inner wrapper end -->
                 </div>
             </div>
         </div>
     </div>
-    <!-- rts breadcrumba area end -->
-    <!-- Bread-Crumb style two End -->
-
-    <!-- rts contact area start -->
     <div class="rts-contact-area-m rts-section-gap">
         <div class="container">
-            <div class="row g-24">
+            <div id="contactContainer" class="row g-24">
                 <!-- single contact area -->
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
                     <div class="single-contact-one-inner">
                         <div class="thumbnail">
-                            <img src="../assets/images/contact/01.jpg" alt="">
-                        </div>
-                        <div class="content">
-                            <div class="icone">
-                                <img src="../assets/images/contact/shape/01.svg" alt="">
-                            </div>
-                            <div class="info">
-                                <span>Call Us 24/7</span>
-                                <a href="tel:+18475555555">
-                                    <h5>+584 (25) 21453</h5>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- single contact area end -->
-                <!-- single contact area -->
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
-                    <div class="single-contact-one-inner">
-                        <div class="thumbnail">
-                            <img src="../assets/images/contact/02.jpg" alt="">
+                            <img class="thumbnailImage" src="../assets/images/sovereign/kitchen-renovation-expert-shortened.jpg" alt="">
                         </div>
                         <div class="content">
                             <div class="icone">
                                 <img src="../assets/images/contact/shape/02.svg" alt="">
                             </div>
                             <div class="info">
-                                <span>MAke A Quote</span>
-                                <a href="mailto:someone@example.com">
-                                    <h5>info@finbiz.com</h5>
+                                <span>Call Us</span>
+                                <a href="tel:+18475555555">
+                                    <h5>&#40;919&#41; 123-4567</h5>
                                 </a>
                             </div>
                         </div>
@@ -151,16 +149,16 @@
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
                     <div class="single-contact-one-inner">
                         <div class="thumbnail">
-                            <img src="../assets/images/contact/03.jpg" alt="">
+                            <img class="thumbnailImage" src="../assets/images/sovereign/kitchen-renovations-logo.png" alt="">
                         </div>
                         <div class="content">
                             <div class="icone">
-                                <img src="../assets/images/contact/shape/03.svg" alt="">
+                                <img src="../assets/images/contact/shape/01.svg" alt="">
                             </div>
                             <div class="info">
-                                <span>Service Station</span>
-                                <a href="#">
-                                    <h5>25 Hilton Street.</h5>
+                                <span>Send an Email</span>
+                                <a href="mailto:sovereignrenovationsllc@gmail.com">
+                                    <h5>Sovereign<br>Renovations</h5>
                                 </a>
                             </div>
                         </div>
@@ -171,8 +169,6 @@
         </div>
     </div>
     <!-- rts contact area end -->
-
-
     <!-- contact form area strt -->
     <div class="rts-contact-page-form-area rts-section-gapBottom">
         <div class="container">
@@ -180,7 +176,7 @@
                 <div class="mian-wrapper-form">
                     <div class="title-mid-wrapper-home-two" data-sal="slide-up" data-sal-delay="150" data-sal-duration="800">
                         <span class="pre">Get In Touch</span>
-                        <h2 class="title">Needs Help? Let’s Get in Touch</h2>
+                        <h2 class="title">Want a beautiful kitchen?<br> Let's get started!</h2>
                     </div>
                     <div id="form-messages"></div>
                     <form id="contact-form" class="contact-form-contact" action="mailer.php" method="post">

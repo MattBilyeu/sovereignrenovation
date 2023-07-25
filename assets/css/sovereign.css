@@ -112,6 +112,13 @@ h1.title {
     align-items: center;
 }
 
+#mobile-menu-active li {
+    padding: 2rem;
+    font-weight: bold;
+    color: var(--color-primary);
+    font-size: 2rem;
+}
+
 @keyframes veil {
     0% {
         opacity: 1;
