@@ -15,19 +15,19 @@ kitchenRemodel.addEventListener('click', ()=> {
     handleImageTransition('assets/images/sovereign/kitchen-remodel.jpg');
 })
 
-const countertop = document.querySelector('#countertop');
-countertop.addEventListener('click', ()=> {
-    handleImageTransition('assets/images/sovereign/counter-install.jpg');
+const laundryBath = document.querySelector('#laundry-bath');
+laundryBath.addEventListener('click', ()=> {
+    handleImageTransition('assets/images/sovereign/1c-bathroom.jpg');
 })
 
-const cabinetry = document.querySelector('#cabinetry');
-cabinetry.addEventListener('click', ()=> {
-    handleImageTransition('assets/images/sovereign/cabinets-install.jpg');
+const featureWall = document.querySelector('#featureWall');
+featureWall.addEventListener('click', ()=> {
+    handleImageTransition('assets/images/sovereign/1d-feature-wall.jpg');
 })
 
-const lighting = document.querySelector('#lighting');
-lighting.addEventListener('click', ()=> {
-    handleImageTransition('assets/images/sovereign/lighting-install.jpg');
+const aLaCarte = document.querySelector('#aLaCarte');
+aLaCarte.addEventListener('click', ()=> {
+    handleImageTransition('assets/images/sovereign/1e-a-la-carte.jpg');
 })
 
 const testimonials = document.querySelectorAll('.testimonial');

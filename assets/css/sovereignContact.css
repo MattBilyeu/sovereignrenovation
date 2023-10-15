@@ -1,5 +1,19 @@
 #header {
-    background-image: url('../images/sovereign/testimonial-background.jpg');
+    background-image: url('../images/sovereign/4a-top-banner.jpg');
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.top-title {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 30%;
+    box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.7);
+    padding: 1rem;
 }
 
 .info a h5 {
