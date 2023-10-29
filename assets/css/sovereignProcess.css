@@ -24,6 +24,10 @@
     padding-bottom: 4rem;
 }
 
+.accordion-service-bg {
+    background-image: url(../images/service/process-bg.png);
+}
+
 @media screen and (max-width: 768px) {
     .title-three-center .bg-title {
         font-size: 75px;
