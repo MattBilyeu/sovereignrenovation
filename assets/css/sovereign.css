@@ -91,7 +91,11 @@ h1.title {
     flex-direction: column;
     align-items: center;
     padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-bottom: 0;
+}
+
+.testimonial h6 {
+    margin-bottom: 0;
 }
 
 .testimonial p {
@@ -103,7 +107,7 @@ h1.title {
     justify-content: space-around;
     font-weight: bold;
     cursor: pointer;
-    padding: 1rem;
+    padding: 0;
 }
 
 .active {

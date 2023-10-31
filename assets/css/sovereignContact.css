@@ -10,10 +10,11 @@
 }
 
 .top-title {
-    background-color: rgba(255, 255, 255, 0.7);
-    border-radius: 30%;
-    box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.7);
-    padding: 1rem;
+    background-color: black;
+    padding: 2rem;
+    color: white;
+    border-color: var(--primary-color);
+    border: thin solid;
 }
 
 .info a h5 {
@@ -33,8 +34,15 @@
 
 .thumbnailImage {
     height: 300px;
+    width: 324px;
 }
 
 .col-lg-4 {
     width: 350px;
+}
+
+@media screen and (max-width: 768px) {
+    .contact-thumbs {
+        padding: 0 !important;
+    }
 }

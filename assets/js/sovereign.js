@@ -77,4 +77,4 @@ const testimonialScroll = setInterval(()=> {
         index++;
     }
     setActive();
-},2000);
+},8000);
