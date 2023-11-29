@@ -7,8 +7,19 @@ header.header-three,
     padding: 0;
 }
 
+.banner-image-area {
+    width: 100%;
+}
+
 .pre-title {
-    color: var(--color-primary) !important;
+    color: black !important;
+    font-weight: bolder !important;
+    font-family: "Cottage Sans", sans-serif !important;
+    text-shadow: 
+    -1px -1px 0 var(--color-primary),
+    1px -1px 0 var(--color-primary),
+    -1px 1px 0 var(--color-primary),
+    1px 1px 0 var(--color-primary);
 }
 
 h1.title {
