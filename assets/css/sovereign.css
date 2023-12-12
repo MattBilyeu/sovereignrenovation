@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fahkwang&family=Libre+Baskerville&display=swap');
+
+html,
+body {
+    font-family: 'Libre Baskerville', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.banner-logo {
+    font-family: 'Fahkwang', sans-serif;
+}
+
 header.header-three,
 .header-three.header--sticky.sticky {
     padding-top: 0;
@@ -14,12 +31,12 @@ header.header-three,
 .pre-title {
     color: black !important;
     font-weight: bolder !important;
-    font-family: "Cottage Sans", sans-serif !important;
-    text-shadow: 
+    font-family: "Cottage Sans", sans-serif;
+    /* text-shadow: 
     -1px -1px 0 var(--color-primary),
     1px -1px 0 var(--color-primary),
     -1px 1px 0 var(--color-primary),
-    1px 1px 0 var(--color-primary);
+    1px 1px 0 var(--color-primary); */
 }
 
 h1.title {
@@ -140,6 +157,10 @@ h1.title {
 
 .no-margin {
     margin: 0;
+}
+
+.italicize {
+    font-style: italic
 }
 
 @keyframes veil {
