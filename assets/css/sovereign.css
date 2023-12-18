@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fahkwang&family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 html,
 body {
-    font-family: 'Libre Baskerville', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -18,6 +19,10 @@ h1, h2, h3, h4, h5, h6 {
 header.header-three,
 .header-three.header--sticky.sticky {
     padding-top: 0;
+}
+
+.headerSpace {
+    min-height: 150px;
 }
 
 .header-three.header--sticky.sticky {
@@ -161,6 +166,15 @@ h1.title {
 
 .italicize {
     font-style: italic
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+    margin: auto;
+    align-items: center;
+    text-align: center
 }
 
 @keyframes veil {
