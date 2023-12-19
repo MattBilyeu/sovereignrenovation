@@ -1,6 +1,10 @@
 .aboutCompany {
-    background: linear-gradient(to right, darkgrey, white);
+    /* background: linear-gradient(to right, darkgrey, white); */
     padding-bottom: 4rem;
+}
+
+.black-font {
+    color: black !important;
 }
 
 .aboutSovereigns {

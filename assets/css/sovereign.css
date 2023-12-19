@@ -82,6 +82,9 @@ h1.title {
 
 #floatingLogo {
     animation: jump-2 8s linear infinite;
+    position: relative;
+    top: -20px;
+    left: 20px;
 }
 
 .valuePropCTAContainer {
