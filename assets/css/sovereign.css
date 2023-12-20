@@ -29,6 +29,10 @@ header.header-three,
     padding: 0;
 }
 
+.heroSection {
+    background-image: url(../images/sovereign/kitchen-remodel-hero.png)
+}
+
 .banner-image-area {
     width: 100%;
 }
@@ -136,6 +140,7 @@ h1.title {
 
 .testimonial p {
     flex-grow: 1;
+    color: black
 }
 
 .controls {
@@ -189,5 +194,40 @@ h1.title {
     }
     100% {
         opacity: 1;
+    }
+}
+
+@media screen and (max-width: 934px) {
+    .heroSection {
+        background-image: url(../images/sovereign/kitchen-remodel-hero-mobile.png)
+    }
+
+    .rts-tab-three-start .nav-tabs {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .rts-tab-three-start .nav-tabs .nav-link.active {
+        justify-content: center
+    }
+
+    #floatingLogo {
+        top: 0;
+    }
+
+    .header-three img {
+        width: 100px;
+        height: 100px
+    }
+
+    .header--sticky.sticky,
+    .header-three.header--sticky.sticky {
+        backdrop-filter: none;
+        background: none
+    }
+
+    .header--sticky.sticky {
+        box-shadow: none;
+        background: none;
     }
 }

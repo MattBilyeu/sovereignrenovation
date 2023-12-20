@@ -36,4 +36,12 @@
     .title-three-center .bg-title {
         font-size: 75px;
     }
+
+    .accordion-service-bg {
+        background-image: none;
+    }
+
+    .headerSpace {
+        min-height: 100px
+    }
 }
