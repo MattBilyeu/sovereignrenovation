@@ -43,8 +43,27 @@
     width: 350px;
 }
 
+.name-email {
+    display: flex;
+    gap: 0.5rem
+}
+
+.contact-inputs {
+    border: thin solid lightgrey !important;
+    margin-bottom: 0.5rem !important
+}
+
+textarea.contact-inputs {
+    min-height: 10rem !important
+}
+
 @media screen and (max-width: 768px) {
     .contact-thumbs {
         padding: 0 !important;
+    }
+
+    .name-email {
+        display: block;
+        text-align: center
     }
 }

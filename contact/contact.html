@@ -8,7 +8,16 @@
     <!-- favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="../assets/images/fav.png">
     <title>About Sovereign Renovations</title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Connect with Sovereign Renovations today! Contact us for in-home consultations, queries, or to kickstart your dream home project. We're ready to help bring your vision to life.">
+    <meta name="author" content="Sovereign Renovations">
+    <meta property="og:site_name" content="Sovereign Renovations">
+    <meta property="og:title" content="Sovereign Renovations: Let's Build Something Great Together!">
+    <meta property="og:description" content="Connect with Sovereign Renovations today! Contact us for in-home consultations, queries, or to kickstart your dream home project. We're ready to help bring your vision to life.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="../assets/images/sovereign/kitchen-renovations-logo-small.png">
+    <meta property="og:locale" content="en_US">
+    <meta name="theme-color" content="#0C0A0A">    
     <!-- fontawesome css -->
     <link rel="stylesheet" href="../assets/css/plugins/fontawesome-5.css">
     <!-- fontawesome css -->
@@ -156,7 +165,7 @@
                             </div>
                             <div class="info">
                                 <span>Send an Email</span>
-                                <a href="mailto:sovereignrenovationsllc@gmail.com">
+                                <a href="mailto:greg@sovereign-renovations.com">
                                     <h5>Sovereign<br>Renovations</h5>
                                 </a>
                             </div>
@@ -175,16 +184,16 @@
                 <div class="mian-wrapper-form">
                     <div class="title-mid-wrapper-home-two" data-sal="slide-up" data-sal-delay="150" data-sal-duration="800">
                         <span class="pre">Get In Touch</span>
-                        <h2 class="title">Ready to start the conversation?<br> Tell us how we can help and we'll reach out soon!</h2>
+                        <h2 class="title">Ready to start the conversation?<br> Drop us a line and we'll reach out soon!</h2>
                     </div>
                     <div id="form-messages"></div>
-                    <form id="contact-form" class="contact-form-contact" action="mailer.php" method="post">
+                    <form id="form" name="contact" data-netlify="true">
                         <div class="name-email">
-                            <input type="text" name="name" placeholder="Your Name" required="">
-                            <input type="text" name="phone" placeholder="Your Phone Number" required="">
-                            <input type="email" name="email" placeholder="Email Address" required="">
+                            <input class="contact-inputs" type="text" name="name" placeholder="Name" required>
+                            <input class="contact-inputs" type="text" name="phone" placeholder="Phone Number" required>
+                            <input class="contact-inputs" type="email" name="email" placeholder="Email Address" required>
                         </div>
-                        <textarea placeholder="How can we help you?" name="message"></textarea>
+                        <textarea class="contact-inputs" placeholder="How can we help you?" name="message"></textarea>
                         <button type="submit" class="rts-btn btn-primary">Send Message</button>
                     </form>
                 </div>
@@ -298,7 +307,7 @@
     <!-- easing JS -->
     <script src="../assets/js/plugins/hover-revel.js"></script>
     <!-- contact form js -->
-    <script src="../assets/js/plugins/contact-form.js"></script>
+    <!-- <script src="../assets/js/plugins/contact-form.js"></script> -->
     <!-- main js -->
     <script src="../assets/js/main.js"></script>
     <!-- swip image -->
